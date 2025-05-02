@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: kirin_ai_bot_sever
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
